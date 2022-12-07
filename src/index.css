@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::selection {
+  background-color: #d01498;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(113, 114, 197);
+  background: radial-gradient(
+    circle,
+    rgba(113, 114, 197, 1) 15%,
+    rgba(200, 27, 155, 1) 100%
+  );
+  width: 150%;
+  height: 100%;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  transform: translateX(-33%);
+  transition: all 200ms ease-in-out;
+}
+
+.text {
+  background: #cd1799;
+  background: linear-gradient(to right, #cd1799 20%, #687ac9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bgShadow {
+  background: rgb(200, 27, 155);
+  background: linear-gradient(
+    90deg,
+    rgba(200, 27, 155, 1) 38%,
+    rgba(113, 114, 197, 1) 55%
+  );
+  filter: blur(170px);
+  z-index: 0;
 }
