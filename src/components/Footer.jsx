@@ -57,6 +57,7 @@ const Footer = () => {
                 <div className="flex gap-[2px] items-center">
                   <FaAngleDoubleRight size={14} className="text-gray-600" />
                   <a
+                    href="#"
                     className="text-gray-400 font-raleway sm:text-lg text-base font-medium hover:text-gray-600 
                   cursor-pointer transition-all duration-200 ease-in-out"
                   >
@@ -66,6 +67,7 @@ const Footer = () => {
                 <div className="flex gap-[2px] items-center">
                   <FaAngleDoubleRight size={14} className="text-gray-600" />
                   <a
+                    href="#"
                     className="text-gray-400 font-raleway sm:text-lg text-base font-medium hover:text-gray-600 
                   cursor-pointer transition-all duration-200 ease-in-out"
                   >
@@ -75,6 +77,7 @@ const Footer = () => {
                 <div className="flex gap-[2px] items-center">
                   <FaAngleDoubleRight size={14} className="text-gray-600" />
                   <a
+                    href="#"
                     className="text-gray-400 font-raleway sm:text-lg text-base font-medium hover:text-gray-600 
                   cursor-pointer transition-all duration-200 ease-in-out"
                   >
@@ -84,6 +87,7 @@ const Footer = () => {
                 <div className="flex gap-[2px] items-center">
                   <FaAngleDoubleRight size={14} className="text-gray-600" />
                   <a
+                    href="#"
                     className="text-gray-400 font-raleway sm:text-lg text-base font-medium hover:text-gray-600 
                   cursor-pointer transition-all duration-200 ease-in-out"
                   >
@@ -101,6 +105,7 @@ const Footer = () => {
                 <div className="flex gap-[2px] items-center">
                   <FaAngleDoubleRight size={14} className="text-gray-600" />
                   <a
+                    href="#"
                     className="text-gray-400 font-raleway sm:text-lg text-base font-medium hover:text-gray-600 
                   cursor-pointer transition-all duration-200 ease-in-out"
                   >
@@ -110,6 +115,7 @@ const Footer = () => {
                 <div className="flex gap-[2px] items-center">
                   <FaAngleDoubleRight size={14} className="text-gray-600" />
                   <a
+                    href="#"
                     className="text-gray-400 font-raleway sm:text-lg text-base font-medium hover:text-gray-600 
                   cursor-pointer transition-all duration-200 ease-in-out"
                   >
@@ -119,6 +125,7 @@ const Footer = () => {
                 <div className="flex gap-[2px] items-center">
                   <FaAngleDoubleRight size={14} className="text-gray-600" />
                   <a
+                    href="#"
                     className="text-gray-400 font-raleway sm:text-lg text-base font-medium hover:text-gray-600 
                   cursor-pointer transition-all duration-200 ease-in-out"
                   >
@@ -128,6 +135,7 @@ const Footer = () => {
                 <div className="flex gap-[2px] items-center">
                   <FaAngleDoubleRight size={14} className="text-gray-600" />
                   <a
+                    href="#"
                     className="text-gray-400 font-raleway sm:text-lg text-base font-medium hover:text-gray-600 
                   cursor-pointer transition-all duration-200 ease-in-out"
                   >
